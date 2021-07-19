@@ -1,0 +1,180 @@
+    1  exit
+    2  sudo yum -y groupinstall "development tools"
+    3  sudo yum -y install epel-release wget
+    4  sudo wget http://rpms.famillecollet.com/enterprise/remi-release-7.rpm
+    5  sudo rpm -Uvh remi-release-7.rpm
+    6  sudo yum -y install --enablerepo=remi-php72 php php-pdo php-mysqlnd php-mbstring php-xml php-fpm php-common php-devel php-mysql unzip
+    7  php -v
+    8  php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+    9  php composer-setup.php
+   10  php -r "unlink('composer-setup.php');"
+   11  sudo mv composer.phar /usr/local/bin/composer
+   12  composer -v
+   13  ls
+   14  ls /
+   15  ls /usr
+   16  ls -la /usr
+   17  pwd
+   18  cd /vagrant
+   19  cd usr
+   20  cd /vagrant
+   21  cd \vagrant
+   22  cd /usr
+   23  pwd
+   24  cd /vagrant
+   25  cd ~/vagrant
+   26  pwd
+   27  cd ~/
+   28  pwd
+   29  mkdir server_lesson && cd server_lesson
+   30  git inti
+   31  git init
+   32  touch first.txt
+   33  pwd
+   34  cd ..
+   35  mkdir -p server_lesson/linux_practice/public
+   36  ls server_lesson/ server_lesson/linux_practice/
+   37  touch server_lesson/linux_practice/public/index.php
+   38  ls server_lesson/linux_practice/public/
+   39  ls ~/server_lesson/ && ls
+   40  cd ~/server_lesson/ && ls
+   41  cd ~/server_lesson/linux_practice/public/
+   42  cp index.php index_bk.php
+   43  ls
+   44  cd ..
+   45  cp -r public/ tmp
+   46  ls public/ tmp
+   47  cd ~
+   48  mv server_lesson/linux_practice/ server_lesson/linux_practice1/
+   49  mkdir linux_practice2 linux_practice3
+   50  mv linux_practice2 server_lesson/
+   51  cd server_lesson/linux_practice1/tmp/
+   52  rm *_bk.php
+   53  ls
+   54  cd ~
+   55  rm server_lesson/first.txt 
+   56  rm -r linux_practice3/
+   57  ls
+   58  cd server_lesson/
+   59  echo '# サーバレッスン' > README.md
+   60  echo 'Linuxプラクティス' >> README.md
+   61  echo '-----------------' >> README.md
+   62  cat README.md
+   63  vi README.md 
+   64  ls
+   65  cd linux_practice
+   66  cd
+   67  ls
+   68  cd server_lesson/linux_practice1
+   69  ls
+   70  cd ..
+   71  linux_practice2
+   72  l
+   73  ls
+   74  cd linux_practice2
+   75  ls
+   76  cd ~
+   77  git add .
+   78  cd server_lesson/
+   79  git add .
+   80  git commit -m "practice1"
+   81  git remote add origin https://github.com/Fujio490/server_lesson.git
+   82  git push origin master
+   83  linux_practice2
+   84  ls
+   85  cd linux_practice2
+   86  mkdir documents
+   87  cd documents/
+   88  touch gizumo01.md
+   89  touch gizumo02.md
+   90  touch gizumo03.md
+   91  touch gizumo04.md
+   92  touch gizumo05.md
+   93  touch gizumo06.md
+   94  touch gizumo07.md
+   95  touch gizumo08.md
+   96  touch gizumo09.md
+   97  touch gizumo10.md
+   98  touch gizumo11.md
+   99  touch gizumo12.md
+  100  touch gizumo13.md
+  101  touch gizumo14.md
+  102  touch gizumo15.md
+  103  touch gizumo16.md
+  104  touch gizumo17.md
+  105  touch gizumo18.md
+  106  touch gizumo19.md
+  107  touch gizumo20.md
+  108  touch gizumo21.md
+  109  touch gizumo22.md
+  110  touch gizumo23.md
+  111  touch gizumo24.md
+  112  touch gizumo25.md
+  113  touch gizumo26.md
+  114  touch gizumo27.md
+  115  touch gizumo28.md
+  116  touch gizumo29.md
+  117  touch gizumo30.md
+  118  touch gizumo31.md
+  119  touch gizumo32.md
+  120  touch gizumo33.md
+  121  touch gizumo34.md
+  122  touch gizumo35.md
+  123  touch gizumo36.md
+  124  touch gizumo37.md
+  125  touch gizumo38.md
+  126  touch gizumo39.md
+  127  touch gizumo40.md
+  128  touch gizumo41.md
+  129  touch gizumo42.md
+  130  touch gizumo423.md
+  131  rm gizumo423.md
+  132  rm gizumo43.md
+  133  touch gizumo43.md
+  134  touch gizumo44.md
+  135  touch gizumo45.md
+  136  touch gizumo46.md
+  137  touch gizumo47.md
+  138  touch gizumo48.md
+  139  touch gizumo49.md
+  140  touch gizumo50.md
+  141  cd ..
+  142  mkdir trash
+  143  cd trash/
+  144  cd ..
+  145  cd documents/
+  146  mv gizumo20 ../trash
+  147  mv gizumo20.md ../trash
+  148  mv gizumo21.md ../trash
+  149  mv gizumo22.md ../trash
+  150  mv gizumo23.md ../trash
+  151  mv gizumo24.md ../trash
+  152  mv gizumo25.md ../trash
+  153  mv gizumo26.md ../trash
+  154  mv gizumo27.md ../trash
+  155  mv gizumo28.md ../trash
+  156  mv gizumo29.md ../trash
+  157  mv gizumo30.md ../trash
+  158  mv gizumo31.md ../trash
+  159  mv gizumo32.md ../trash
+  160  mv gizumo33.md ../trash
+  161  mv gizumo34.md ../trash
+  162  mv gizumo35.md ../trash
+  163  mv gizumo36.md ../trash
+  164  mv gizumo37.md ../trash
+  165  mv gizumo3.md ../trash
+  166  mv gizumo38.md ../trash
+  167  mv gizumo389.md ../trash
+  168  mv gizumo39.md ../trash
+  169  mv gizumo40.md ../trash
+  170  cd ..
+  171  mkdir .gitignore
+  172  vi
+  173  rm -r .gitignore/
+  174  touh .gitignore
+  175  touch .gitignore
+  176  vi .gitignore 
+  177  history 300
+  178  cat ../README.md 
+  179  touch exec_command.log
+  180  history 300 > exec_command.log 
